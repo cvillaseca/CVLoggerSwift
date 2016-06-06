@@ -1,0 +1,6 @@
+framework module Pods_CVLoggerSwift_Example {
+  umbrella header "Pods-CVLoggerSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

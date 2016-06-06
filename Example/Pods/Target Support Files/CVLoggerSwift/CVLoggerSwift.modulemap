@@ -1,0 +1,6 @@
+framework module CVLoggerSwift {
+  umbrella header "CVLoggerSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
