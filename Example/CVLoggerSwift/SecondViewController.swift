@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Second ViewController"
+        self.title = "SecondVC"
         CVLogger.print("SecondViewController was loaded")
     }
 

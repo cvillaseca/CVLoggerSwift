@@ -85,15 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-CVLoggerSwift_Tests/CVLoggerSwift.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/FBSnapshotTestCase.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/Nimble.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/Nimble_Snapshots.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CVLoggerSwift_Tests/CVLoggerSwift.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/FBSnapshotTestCase.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/Nimble.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/Nimble_Snapshots.framework"
-  install_framework "Pods-CVLoggerSwift_Tests/Quick.framework"
 fi

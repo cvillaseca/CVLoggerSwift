@@ -10,7 +10,7 @@ import UIKit
 
 class CVLoggerCell: UITableViewCell {
     
-    public var logLabel = UILabel()
+    internal var logLabel = UILabel()
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

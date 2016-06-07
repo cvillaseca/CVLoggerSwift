@@ -172,10 +172,10 @@ class CVLoggerViewController: UIViewController, UITableViewDataSource, UITableVi
     func updateSearchResultsForSearchController(searchController: UISearchController) {
         self.searchLogs?.removeAll(keepCapacity: false)
         
-        let searchPredicate = NSPredicate(format: "SELF CONTAINS[c] %@", searchController.searchBar.text!)
-        let array = (self.logs! as NSArray).filteredArrayUsingPredicate(searchPredicate)
-        self.searchLogs = array as! [String]
-        
+        self.searchLogs = self.logs?.filter({ (str:String) -> Bool in
+            return str == searchController.searchBar.text
+        })
+    
         self.tableView.reloadData()
     }
     
@@ -267,7 +267,7 @@ class CVLoggerViewController: UIViewController, UITableViewDataSource, UITableVi
     
     
     func heightForText(text:String) -> CGFloat {
-        var str = text as NSString
+        let str = text as NSString
         
         let marginHeight:CGFloat = 8.0
         

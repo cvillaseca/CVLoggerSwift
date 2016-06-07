@@ -1,33 +1,14 @@
 PODS:
-  - CVLoggerSwift (0.1)
-  - FBSnapshotTestCase (2.1.1):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
-  - FBSnapshotTestCase/Core (2.1.1)
-  - FBSnapshotTestCase/SwiftSupport (2.1.1):
-    - FBSnapshotTestCase/Core
-  - Nimble (3.2.0)
-  - Nimble-Snapshots (4.1.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble
-    - Quick
-  - Quick (0.9.2)
+  - CVLoggerSwift (0.2)
 
 DEPENDENCIES:
   - CVLoggerSwift (from `../`)
-  - FBSnapshotTestCase
-  - Nimble (~> 3.0)
-  - Nimble-Snapshots
-  - Quick (~> 0.8)
 
 EXTERNAL SOURCES:
   CVLoggerSwift:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  CVLoggerSwift: 445410e0b352683b0820b23ee7a438de9af9b9aa
-  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
-  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
-  Nimble-Snapshots: 2da4d2ec829b458d6886c06812c52493fce284c9
-  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  CVLoggerSwift: 097392b3d9b7d537cf17e6d54ed8580ee68b4d1a
 
 COCOAPODS: 0.39.0

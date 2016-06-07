@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "CVLogger Example"
+        self.title = "CVLoggerSwift"
         CVLogger.print("ViewController was loaded")
         
     }

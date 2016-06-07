@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.makeKeyAndVisible()
         }
         
-        #if DEBUG
+        #if !NDEBUG
             cvlogger = CVLogger()
         #endif
         
