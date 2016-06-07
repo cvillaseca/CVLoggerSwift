@@ -1,9 +1,9 @@
 # CVLoggerSwift
 
-[![CI Status](http://img.shields.io/travis/cvillaseca/CVLogger.svg?style=flat)](https://travis-ci.org/cvillaseca/CVLoggerSwift)
-[![Version](https://img.shields.io/cocoapods/v/CVLogger.svg?style=flat)](http://cocoapods.org/pods/CVLoggerSwift)
-[![License](https://img.shields.io/cocoapods/l/CVLogger.svg?style=flat)](http://cocoapods.org/pods/CVLoggerSwift)
-[![Platform](https://img.shields.io/cocoapods/p/CVLogger.svg?style=flat)](http://cocoapods.org/pods/CVLoggerSwift)
+[![CI Status](http://img.shields.io/travis/cvillaseca/CVLoggerSwift.svg?style=flat)](https://travis-ci.org/cvillaseca/CVLoggerSwift)
+[![Version](https://img.shields.io/cocoapods/v/CVLoggerSwift.svg?style=flat)](http://cocoapods.org/pods/CVLoggerSwift)
+[![License](https://img.shields.io/cocoapods/l/CVLoggerSwift.svg?style=flat)](http://cocoapods.org/pods/CVLoggerSwift)
+[![Platform](https://img.shields.io/cocoapods/p/CVLoggerSwift.svg?style=flat)](http://cocoapods.org/pods/CVLoggerSwift)
 
 `CVLoggerSwift` is a tool that shows a button over UIWindow (only DEBUG build). When it pushed will show any log printed. 
 
